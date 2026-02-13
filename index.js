@@ -31,13 +31,6 @@ const lyrics = [
     { time: 36.25, text: "Let me be your coffee pot" },
     { time: 39.00, text: "You call the shots, babe" },
     { time: 42.51, text: "I just wanna be yours" },
-    { time: 45.90, text: "Secrets I have held in my heart" },
-    { time: 49.47, text: "Are harder to hide than I thought" },
-    { time: 53.05, text: "Maybe I just wanna be yours" },
-    { time: 57.30, text: "I wanna be yours" },
-    { time: 62.60, text: " I wanna be yours " },
-    { time: 66.26, text: "Wanna be yours" },
-    { time: 70.08, text: "Wanna be yours..." }
 ];
 
 
@@ -116,7 +109,7 @@ document.getElementById('ready-btn').onclick = function() {
             }
         }
 
-        if (currentTime >= 73.00) { 
+        if (currentTime >= 45.00) { 
             clearInterval(syncLyrics);
             nextStage(1);
         }
