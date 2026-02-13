@@ -1,31 +1,43 @@
-// --- 1. Data & Configuration ---
-// const lyrics = [
-//     {time: 0.00, text: "I don't know how to say this" },
-//     {time: 4.00, text: "But" },
-//     {time: 7.00, text: "I think you should know this" },
-//     { time: 9.72, text: "They say, you know when you know" },
-//     { time: 16.90, text: "So let's face it, you had me at hello" },
-//     { time: 25.31, text: "Hesitation never helps" },
-//     { time: 28.23, text: "How could this be anything, anything else?" },
-//     { time: 32.93, text: "When all I dream of is your eyes" },
-//     { time: 37.29, text: "All I long for is your touch" },
-//     { time: 41.03, text: "And, darlin', something tells me that's enough, mm" },
-//     { time: 48.56, text: "You can say that I'm a fool" },
-//     { time: 51.96, text: "And I don't know very much" },
-//     { time: 55.18, text: "But I think they call this love" },
-//     {time: 63.00, text: ""}
-// ];
+// I wanna be your vacuum cleaner
+// Breathin' in your dust
+// I wanna be your Ford Cortina
+// I will never rust
+// If you like your coffee hot
+// Let me be your coffee pot
+// You call the shots, babe
+// I just wanna be yours
+// Secrets I have held in my heart
+// Are harder to hide than I thought
+// Maybe I just wanna be yours
+// I wanna be yours, I wanna be yours
+// Wanna be yours
+// Wanna be yours
+// Wanna be yours
+
 const lyrics = [
     { time: 0.00, text: "I don't know how to say this" },
-    { time: 4.00, text: "But" },
-    { time: 7.00, text: "I think you should know this" },
-    { time: 9.10, text: "All I dream of is your eyes" },
-    { time: 13.46, text: "All I long for is your touch" },
-    { time: 17.20, text: "And, darlin', something tells me that's enough, mm" },
-    { time: 24.23, text: "You can say that I'm a fool" },
-    { time: 27.63, text: "And I don't know very much" },
-    { time: 30.95, text: "But I think they call this love" },
-    { time: 38.00, text: "" }
+    { time: 3.00, text: "But..." },
+    { time: 6.00, text: "I think you should know this" },
+    { time: 9.00, text: "that...." },
+    {time: 10.70, text: "Life is a collection of moments" },
+    {time:12.90, text: "but my favorites always involve you." },
+    { time: 15.80, text: "So..." },
+    { time: 16.80, text: "Here is my promise..." },
+    { time: 18.29, text: "I wanna be your vacuum cleaner" },
+    { time: 21.83, text: "Breathin' in your dust" },
+    { time: 25.40, text: "I wanna be your Ford Cortina" },
+    { time: 28.90, text: "I will never rust" },
+    { time: 32.58, text: "If you like your coffee hot" },
+    { time: 36.25, text: "Let me be your coffee pot" },
+    { time: 39.00, text: "You call the shots, babe" },
+    { time: 42.51, text: "I just wanna be yours" },
+    { time: 45.90, text: "Secrets I have held in my heart" },
+    { time: 49.47, text: "Are harder to hide than I thought" },
+    { time: 53.05, text: "Maybe I just wanna be yours" },
+    { time: 57.30, text: "I wanna be yours" },
+    { time: 62.60, text: " I wanna be yours " },
+    { time: 66.26, text: "Wanna be yours" },
+    { time: 70.08, text: "Wanna be yours..." }
 ];
 
 
@@ -104,7 +116,7 @@ document.getElementById('ready-btn').onclick = function() {
             }
         }
 
-        if (currentTime >= 34.00) { 
+        if (currentTime >= 73.00) { 
             clearInterval(syncLyrics);
             nextStage(1);
         }
